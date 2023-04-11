@@ -3,6 +3,6 @@ body{
 }
 
 .cabecalho{
-    background-color: bisque;
+    background-color:brown;
     display: flex;
     justify-content: space-around;}
