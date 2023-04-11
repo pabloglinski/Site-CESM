@@ -1,3 +1,8 @@
 body{
     background-color: aliceblue;
 }
+
+.cabecalho{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;}
