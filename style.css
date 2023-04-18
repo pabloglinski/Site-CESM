@@ -1,8 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+}
+
 body{
     background-color: aliceblue;
 }
 
 .cabecalho{
-    background-color:brown;
+    background-color:darkgrey;
     display: flex;
     justify-content: space-around;}
+
+    .cabecalho-imagem {
+        width: 80%;
+        padding: 12px;
+    }
+    .lista-cabecalho {
+        display: inline-block;
+        padding: 30px;
+        color: ghostwhite;
+        font-size: 15px;
+        font-weight: bolder;
+    }
