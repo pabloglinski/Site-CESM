@@ -7,7 +7,7 @@ body{
     background-color: darkgrey;
 }
 .cabeçalho{
-    background-color: #3E65EE;
+    background-color: #c1c5d4;
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
@@ -32,7 +32,7 @@ body{
     justify-content: left;
     align-items: center;
     padding: 24px 0;
-    background-color: #9BBBFB;
+    background-color: #999ca1;
 }
 
 .texto-lista {
