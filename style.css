@@ -7,7 +7,7 @@ body{
     background-color: darkgrey;
 }
 .cabeçalho{
-    background-color: #7b7d81;
+    background-color: #a1a1a1;
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
@@ -32,7 +32,7 @@ body{
     justify-content: left;
     align-items: center;
     padding: 24px 0;
-    background-color: #aebbcf;
+    background-color: #c1c5cc;
 }
 
 .texto-lista {
@@ -60,7 +60,7 @@ body{
 }
 
 .equipe{
-    background-color:#b1b4b8;
+    background-color:#b7b9bd;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 35px;
