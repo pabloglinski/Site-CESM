@@ -1,51 +1,82 @@
 *{
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
 body{
-    background-color: aliceblue;
+    background-color: darkgrey;
+}
+.cabeçalho{
+    background-color: #3E65EE;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
 }
 
-.cabecalho{
-    background-color:darkgrey;
+.cabeçalho-imagem{
+    width: 30%;
+    padding: 12px;
+}
+
+.lista-cabecalho{
+
+    display:inline-block;
+    padding: 30px;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.escola {
+    background-image: linear-gradient();
     display: flex;
-    justify-content: space-around;}
+    justify-content: left;
+    align-items: center;
+    padding: 24px 0;
+    background-color: #9BBBFB;
+}
 
-    .cabecalho-imagem {
-        width: 80%;
-        padding: 12px;
-    }
-    .lista-cabecalho {
-        display: inline-block;
-        padding: 30px;
-        color: ghostwhite;
-        font-size: 15px;
-        font-weight: bolder;
-    }
+.texto-lista {
 
-    .escola {
-        background-image: linear-gradient(darkgrey);
-        display: flex;
-        justify-content: left;
-        align-items: center;
-        padding: 24px 0;
-    }
+    display: inline-block;
+    list-style-type: none;
+    font-size: 21px;
+}
 
-    .texto-lista {
+.escola-imagem {
 
-        display: inline-block;
-        list-style-type: none;
-    }
-
-    .escola-imagem {
-        width: 100%;
-        margin: 46px;
-    }
+    width: 95%;
+    margin: 42px;
+}
 
 .escola-texto {
     text-align: justify;
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
     margin: 20px;
+}
+
+.profissional-nome{
+    font-size: 15px;
+}
+
+.equipe{
+    background-color:#C3CDDB;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+.equipe-escola{
+    background-color:#C3CDDB;
+    margin: 10px;
+    display: flex;
+    padding: 50px;
+    justify-content: space-evenly;
+
+}
+
+.equipe-colunas{
+    display: contents;
+    list-style-type: none;
+    text-align: center;
 }
