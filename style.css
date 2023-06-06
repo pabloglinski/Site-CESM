@@ -7,7 +7,7 @@ body{
     background-color: darkgrey;
 }
 .cabeçalho{
-    background-color: #a1a1a1;
+    background-color: #AAAAAA;
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
