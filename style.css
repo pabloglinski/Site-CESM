@@ -80,3 +80,14 @@ body{
     list-style-type: none;
     text-align: center;
 }
+
+.profissional-nome {
+    text-align: center;
+    font-family: "Times New Roman";
+    font-size: 20px;
+    padding: 10px;
+}
+
+.icones {
+    width: 30%;
+}
